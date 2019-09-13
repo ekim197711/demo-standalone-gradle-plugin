@@ -1,0 +1,1 @@
+# demo-standalone-gradle-plugin
