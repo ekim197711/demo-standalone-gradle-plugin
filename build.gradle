@@ -1,0 +1,42 @@
+plugins {
+    id 'java-gradle-plugin'
+    id 'groovy'
+    id 'maven-publish'
+}
+
+
+
+publishing {
+    repositories {
+        maven {
+            url = "$buildDir/repo"
+        }
+    }
+}
+
+
+
+repositories {
+    mavenCentral()
+}
+group 'com.codeinvestigator'
+version '1.0-SNAPSHOT'
+
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+}
+test {
+    useJUnitPlatform()
+}
+
+gradlePlugin {
+    plugins {
+        simplePlugin {
+            id = 'com.codeinvestigator.weatherforecast'
+            implementationClass = 'com.codeinvestigator.plugin.WeatherForecastPlugin'
+        }
+    }
+}

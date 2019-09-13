@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.codeinvestigator.weatherforecast</groupId>
+  <artifactId>com.codeinvestigator.weatherforecast.gradle.plugin</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190913194457</lastUpdated>
+  </versioning>
+</metadata>

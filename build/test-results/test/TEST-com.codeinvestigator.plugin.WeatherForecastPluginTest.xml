@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codeinvestigator.plugin.WeatherForecastPluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-13T19:44:44" hostname="mmni-Lenovo-Z710" time="3.352">
+  <properties/>
+  <testcase name="testThePlugin()" classname="com.codeinvestigator.plugin.WeatherForecastPluginTest" time="3.352"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
